@@ -1,18 +1,73 @@
 @relation cine
 
 @attribute genero {
-  accion,
-  aventura,
-  animacion,
-  comedia,
-  crimen,
-  documental,
-  drama,
-  terror,
-  musical,
-  suspense,
-  romance,
-  sci-fi,
-  western,
-  otros
+  Accion,
+  Aventura,
+  Animacion,
+  Comedia,
+  Crimen,
+  Documental,
+  Drama,
+  Terror,
+  Musical,
+  Suspense,
+  Romance,
+  Sci-fi,
+  Western,
+  Thriller,
+  Otros
+}
+
+@attribute edad {
+  Todos,
+  +7,
+  +12,
+  +16,
+  +18
+}
+
+@attribute mesEstreno {
+  Enero,
+  Febrero,
+  Marzo,
+  Abril,
+  Mayo,
+  Junio,
+  Julio,
+  Agosto,
+  Septiembre,
+  Octubre,
+  Noviembre,
+  Diciembre
+}
+
+@attribute duracion numeric
+
+@attribute productora {
+  WaltDisneyCompany,
+  TwentiethCenturyFox,
+  UniversalPicturesInternational,
+  WarnerBrosEnterteinment,
+  SonyPicturiesReleasing,
+  AurumProducciones,
+  Paramount,
+  Otros
+}
+
+@attribute recaudacion numeric
+
+@attribute pais {
+  España,
+  EstadosUnidos
+}
+
+@attribute espectadores {
+
+}
+
+@attribute basadaEn {
+  Libros,
+  Comics,
+  Biografia,
+  nada
 }
