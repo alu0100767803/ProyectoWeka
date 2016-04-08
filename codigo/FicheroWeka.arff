@@ -1,0 +1,18 @@
+@relation cine
+
+@attribute genero {
+  accion,
+  aventura,
+  animacion,
+  comedia,
+  crimen,
+  documental,
+  drama,
+  terror,
+  musical,
+  suspense,
+  romance,
+  sci-fi,
+  western,
+  otros
+}
