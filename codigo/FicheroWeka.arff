@@ -4,10 +4,13 @@
 @attribute edad { Todos, +7, +12, +16, +18 }
 @attribute mesEstreno { Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre }
 @attribute duracion numeric
-@attribute productora { WaltDisneyCompany, TwentiethCenturyFox, UniversalPicturesInternational, WarnerBrosEnterteinment, SonyPicturesReleasing, AurumProducciones, Paramount, Otros }
+@attribute productora { WaltDisneyCompany, TwentiethCenturyFox, UniversalPicturesInternational, WarnerBrosEnterteinment, SonyPicturesReleasing, AurumProducciones, Paramount, Otra }
 @attribute recaudacion numeric
 @attribute pais { España, EstadosUnidos }
 @attribute basadaEn { Libro, Comic, Biografia, Original }
 
 @data
-Comedia, Todos, Febrero, 120, SonyPicturesReleasing, 1892543, EstadosUnidos, Original
+Comedia, Todos, Febrero, 92, Paramount, 5542552.70, EstadosUnidos, Original
+Drama, +18, Febrero, 125, UniversalPicturesInternational, 19529367.43, EstadosUnidos, Libro
+Comedia, +7, Marzo, 102, Otra, 10450257.42, España, Original
+Accion, +16, Marzo, 120, SonyPicturesReleasing, 1892543.58, EstadosUnidos, Original
