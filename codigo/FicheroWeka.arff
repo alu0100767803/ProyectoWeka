@@ -1,73 +1,13 @@
 @relation cine
 
-@attribute genero {
-  Accion,
-  Aventura,
-  Animacion,
-  Comedia,
-  Crimen,
-  Documental,
-  Drama,
-  Terror,
-  Musical,
-  Suspense,
-  Romance,
-  Sci-fi,
-  Western,
-  Thriller,
-  Otros
-}
-
-@attribute edad {
-  Todos,
-  +7,
-  +12,
-  +16,
-  +18
-}
-
-@attribute mesEstreno {
-  Enero,
-  Febrero,
-  Marzo,
-  Abril,
-  Mayo,
-  Junio,
-  Julio,
-  Agosto,
-  Septiembre,
-  Octubre,
-  Noviembre,
-  Diciembre
-}
-
+@attribute genero { Accion, Aventura, Animacion, Comedia, Crimen, Documental, Drama, Terror, Musical, Suspense, Romance, Sci-fi, Western, Thriller, Otros }
+@attribute edad { Todos, +7, +12, +16, +18 }
+@attribute mesEstreno { Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre }
 @attribute duracion numeric
-
-@attribute productora {
-  WaltDisneyCompany,
-  TwentiethCenturyFox,
-  UniversalPicturesInternational,
-  WarnerBrosEnterteinment,
-  SonyPicturiesReleasing,
-  AurumProducciones,
-  Paramount,
-  Otros
-}
-
+@attribute productora { WaltDisneyCompany, TwentiethCenturyFox, UniversalPicturesInternational, WarnerBrosEnterteinment, SonyPicturesReleasing, AurumProducciones, Paramount, Otros }
 @attribute recaudacion numeric
+@attribute pais { España, EstadosUnidos }
+@attribute basadaEn { Libro, Comic, Biografia, Original }
 
-@attribute pais {
-  España,
-  EstadosUnidos
-}
-
-@attribute espectadores {
-
-}
-
-@attribute basadaEn {
-  Libros,
-  Comics,
-  Biografia,
-  nada
-}
+@data
+Comedia, Todos, Febrero, 120, SonyPicturesReleasing, 1892543, EstadosUnidos, Original
