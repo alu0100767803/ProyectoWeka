@@ -1,6 +1,6 @@
 @relation cine
 
-@attribute genero { Accion, Aventura, Animacion, Comedia,  Drama, Terror, Musical, Suspense, Romance, Sci-fi, Western, Thriller, Otros }
+@attribute genero { Accion, Aventura, Animacion, Comedia,  Drama, Terror, Musical, Sci-fi, Thriller, Otros }
 @attribute edad { Todos, +7, +12, +16, +18 }
 @attribute mesEstreno { Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre }
 @attribute duracion numeric
@@ -51,8 +51,15 @@ Animacion, Todos, Noviembre, 93, WaltDisneyCompany, 9359043.56, EstadosUnidos, O
 Comedia, +16, Diciembre, 97, Otra, 528426.69, España, Original
 Comedia, +12, Octubre, 93, Otra, 2454666.99, España, Original
 Animacion, Todos, Diciembre, 89, Otra, 4282081.93, EstadosUnidos, Comic
-Western, +18, Enero, 168, AurumProducciones, 4589249.36, EstadosUnidos, Original
-Suspense, +7, Agosto, 104, Otra, 662911.18, EstadosUnidos, Libro
-Romance, +12, Junio, 120, Otra, 1945277.24, España, Original
-Romance, +12, Junio, 86, Otra, 8274058.79, España, Original
-Drama, +7, Diciembre, 123, SonyPicturesReleasing, 1958096.30, EstadosUnidos, Libro, 303416
+Otros, +18, Enero, 168, AurumProducciones, 4589249.36, EstadosUnidos, Original
+Otros, +7, Agosto, 104, Otra, 662911.18, EstadosUnidos, Libro
+Otros, +12, Junio, 120, Otra, 1945277.24, España, Original
+Otros, +12, Junio, 86, Otra, 8274058.79, España, Original
+Drama, +7, Diciembre, 123, SonyPicturesReleasing, 1958096.30, EstadosUnidos, Libro
+Drama, +7, Enero, 114, Otra, 3976365.48, EstadosUnidos, Libro
+Comedia, +16, Marzo, 104, WarnerBrosEnterteinment, 4209711.41, EstadosUnidos, Original
+Comedia, +12, Agosto, 99, WarnerBrosEnterteinment, 2730305.02, EstadosUnidos, Original
+Aventura, +7, Octubre, 111, WarnerBrosEnterteinment, 3854680.39, EstadosUnidos, Libro
+Sci-fi, +12, Febrero, 128, WarnerBrosEnterteinment, 2502007.08, EstadosUnidos, Original
+Accion, +12, Agosto, 116, WarnerBrosEnterteinment, 2613479.13, EstadosUnidos, Original
+Drama, +12, Octubre, 103, Otra, 3477359.32, España, Original
