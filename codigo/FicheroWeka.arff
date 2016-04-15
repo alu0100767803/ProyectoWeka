@@ -4,62 +4,67 @@
 @attribute edad { Todos, +7, +12, +16, +18 }
 @attribute mesEstreno { Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre }
 @attribute duracion numeric
-@attribute productora { WaltDisneyCompany, TwentiethCenturyFox, UniversalPicturesInternational, WarnerBrosEnterteinment, SonyPicturesReleasing, AurumProducciones, Paramount, Otra }
-@attribute recaudacion numeric
+@attribute productora { WaltDisneyCompany, TwentiethCenturyFox, UniversalPicturesInternational, WarnerBrosEnterteinment, SonyPicturesReleasing, AurumProducciones, Paramount, HispanoFoxfilm, Otra }
 @attribute pais { España, EstadosUnidos }
-@attribute basadaEn { Libro, Comic, Biografia, Original }
+@attribute basadaEn { Libro, Comic, HechosReales, Original }
 
 @data
-Comedia, Todos, Febrero, 92, Paramount, 5542552.70, EstadosUnidos, Original
-Drama, +18, Febrero, 125, UniversalPicturesInternational, 19529367.43, EstadosUnidos, Libro
-Comedia, +7, Marzo, 102, Otra, 10450257.42, España, Original
-Accion, +16, Marzo, 120, SonyPicturesReleasing, 1892543.58, EstadosUnidos, Original
-Accion, +7, Julio, 117, WaltDisneyCompany, 3804931.59, EstadosUnidos, Comic
-Accion, +7, Abril, 142, WaltDisneyCompany, 12076641.76, EstadosUnidos, Comic
-Drama, +16, Marzo, 91, UniversalPicturesInternational, 849136.62, EstadosUnidos, Original
-Comedia, +16, Mayo, 101, SonyPicturesReleasing, 508584.00, EstadosUnidos, Original
-Animacion, Todos, Marzo, 94, Otra, 64223727.68, EstadosUnidos, Original
-Accion, +16, Enero, 134, TwentiethCenturyFox, 4223727.68, EstadosUnidos, Original
-Sci-fi, +12, Abril, 119, AurumProducciones, 4430298.67, EstadosUnidos, Libro
-Accion, +16, Abril, 137, UniversalPicturesInternational, 13441720.24, EstadosUnidos, Original
-Comedia, +16, Septiembre, 87, WarnerBrosEnterteinment, 2659785.05, España, Comic
-Thriller, +12, Octubre, 106, UniversalPicturesInternational, 8929800.96, España, Original
-Comedia, +7, Noviembre, 99, Otra, 35308314.45, España, Original
-Aventura, +12, Junio, 124, UniversalPicturesInternational, 21993812.55, EstadosUnidos, Original
-Accion, +12, Junio, 114, WarnerBrosEnterteinment, 3127345.09, EstadosUnidos, Original
-Sci-fi, +12, Julio, 125, Paramount, 365535.81, EstadosUnidos, Original
-Comedia, +7, Julio, 106, SonyPicturesReleasing, 5488100.41, EstadosUnidos, Original
-Comedia, +16, Julio, 115, UniversalPicturesInternational, 3855318.40, EstadosUnidos, Original
-Thriller, +16, Julio, 83, UniversalPicturesInternational, 2132051.83, EstadosUnidos, Original,
-Terror, +16, Julio, 80, WarnerBrosEnterteinment, 792125.99, EstadosUnidos, Original
-Drama, +12, Diciembre, 121, Otra, 1831157.10, EstadosUnidos, Libro
-Thriller, +16, Agosto, 108, SonyPicturesReleasing, 2047822.08, EstadosUnidos, Original
-Drama, +16, Septiembre, 163, Otra, 16781603.65, España, Libro
-Sci-fi, +7, Diciembre, 136, WaltDisneyCompany, 32497616.71, EstadosUnidos, Original
-Drama, +16, Diciembre, 93, Otra, 964779.67, España, Libro
-Sci-fi, +12, Noviembre, 137, AurumProducciones, 11317146.86, EstadosUnidos, Libro
-Sci-fi, +7, Octubre, 142, Otra, 11090365.41, EstadosUnidos, Libro,
-Sci-fi, +7, Diciembre, 100, TwentiethCenturyFox, 3228081.87, EstadosUnidos, Comic
-Drama, +16, Febrero, 132, WarnerBrosEnterteinment, 9199992.09, EstadosUnidos, Libro
-Aventura, +12, Enero, 102, UniversalPicturesInternational, 2019687.85, EstadosUnidos, Libro
-Terror, +12, Mayo, 94, Otra, 1598757.05, EstadosUnidos, Original
-Terror, +16, Junio, 97, AurumProducciones, 2090555.63, EstadosUnidos Original
-Animacion, Todos, Junio, 91 UniversalPicturesInternational, 23998733.96, EstadosUnidos, Original
-Animacion, Todos, Julio, 94, WaltDisneyCompany, 21792705.41, EstadosUnidos, Original
-Accion, +12, Septiembre, 132, Otra, 5167717.78, EstadosUnidos, Libro
-Animacion, Todos, Noviembre, 93, WaltDisneyCompany, 9359043.56, EstadosUnidos, Original
-Comedia, +16, Diciembre, 97, Otra, 528426.69, España, Original
-Comedia, +12, Octubre, 93, Otra, 2454666.99, España, Original
-Animacion, Todos, Diciembre, 89, Otra, 4282081.93, EstadosUnidos, Comic
-Otros, +18, Enero, 168, AurumProducciones, 4589249.36, EstadosUnidos, Original
-Otros, +7, Agosto, 104, Otra, 662911.18, EstadosUnidos, Libro
-Otros, +12, Junio, 120, Otra, 1945277.24, España, Original
-Otros, +12, Junio, 86, Otra, 8274058.79, España, Original
-Drama, +7, Diciembre, 123, SonyPicturesReleasing, 1958096.30, EstadosUnidos, Libro
-Drama, +7, Enero, 114, Otra, 3976365.48, EstadosUnidos, Libro
-Comedia, +16, Marzo, 104, WarnerBrosEnterteinment, 4209711.41, EstadosUnidos, Original
-Comedia, +12, Agosto, 99, WarnerBrosEnterteinment, 2730305.02, EstadosUnidos, Original
-Aventura, +7, Octubre, 111, WarnerBrosEnterteinment, 3854680.39, EstadosUnidos, Libro
-Sci-fi, +12, Febrero, 128, WarnerBrosEnterteinment, 2502007.08, EstadosUnidos, Original
-Accion, +12, Agosto, 116, WarnerBrosEnterteinment, 2613479.13, EstadosUnidos, Original
-Drama, +12, Octubre, 103, Otra, 3477359.32, España, Original
+Comedia, Todos, Febrero, 92, Paramount, EstadosUnidos, Original
+Drama, +18, Febrero, 125, UniversalPicturesInternational, EstadosUnidos, Libro
+Comedia, +7, Marzo, 102, Otra, España, Original
+Accion, +16, Marzo, 120, SonyPicturesReleasing, EstadosUnidos, Original
+Accion, +7, Julio, 117, WaltDisneyCompany, EstadosUnidos, Comic
+Accion, +7, Abril, 142, WaltDisneyCompany, EstadosUnidos, Comic
+Drama, +16, Marzo, 91, UniversalPicturesInternational, EstadosUnidos, Original
+Comedia, +16, Mayo, 101, SonyPicturesReleasing, EstadosUnidos, Original
+Animacion, Todos, Marzo, 94, HispanoFoxfilm, EstadosUnidos, Original
+Accion, +16, Enero, 134, TwentiethCenturyFox, EstadosUnidos, Original
+Sci-fi, +12, Abril, 119, AurumProducciones, EstadosUnidos, Libro
+Accion, +16, Abril, 137, UniversalPicturesInternational, EstadosUnidos, Original
+Comedia, +16, Septiembre, 87, WarnerBrosEnterteinment, España, Comic
+Thriller, +12, Octubre, 106, UniversalPicturesInternational, España, Original
+Comedia, +7, Noviembre, 99, Otra, España, Original
+Aventura, +12, Junio, 124, UniversalPicturesInternational, EstadosUnidos, Original
+Accion, +12, Junio, 114, WarnerBrosEnterteinment, EstadosUnidos, Original
+Sci-fi, +12, Julio, 125, Paramount, EstadosUnidos, Original
+Comedia, +7, Julio, 106, SonyPicturesReleasing, EstadosUnidos, Original
+Comedia, +16, Julio, 115, UniversalPicturesInternational, EstadosUnidos, Original
+Thriller, +16, Julio, 83, UniversalPicturesInternational, EstadosUnidos, Original,
+Terror, +16, Julio, 80, WarnerBrosEnterteinment, EstadosUnidos, Original
+Drama, +12, Diciembre, 121, Otra, EstadosUnidos, Libro
+Thriller, +16, Agosto, 108, SonyPicturesReleasing, EstadosUnidos, Original
+Drama, +16, Septiembre, 163, Otra, España, Libro
+Sci-fi, +7, Diciembre, 136, WaltDisneyCompany, EstadosUnidos, Original
+Drama, +16, Diciembre, 93, Otra, España, Libro
+Sci-fi, +12, Noviembre, 137, AurumProducciones, EstadosUnidos, Libro
+Sci-fi, +7, Octubre, 142, TwentiethCenturyFox, EstadosUnidos, Libro,
+Sci-fi, +7, Diciembre, 100, TwentiethCenturyFox, EstadosUnidos, Comic
+Drama, +16, Febrero, 132, WarnerBrosEnterteinment, EstadosUnidos, HechosReales
+Aventura, +12, Enero, 102, UniversalPicturesInternational, EstadosUnidos, Libro
+Terror, +12, Mayo, 94, Otra,, EstadosUnidos, Original
+Terror, +16, Junio, 97, AurumProducciones, EstadosUnidos Original
+Animacion, Todos, Junio, 91 UniversalPicturesInternational, EstadosUnidos, Original
+Animacion, Todos, Julio, 94, WaltDisneyCompany, EstadosUnidos, Original
+Accion, +12, Septiembre, 132, TwentiethCenturyFox, EstadosUnidos, Libro
+Animacion, Todos, Noviembre, 93, WaltDisneyCompany, EstadosUnidos, Original
+Animacion, Todos, Agosto, 91, Paramount, España, Original
+Sci-fi, +12, Noviembre, 110 Otra, España, Original
+Comedia, +16, Diciembre, 97, Otra, España, Original
+Comedia, +12, Octubre, 93, Otra, España, Original
+Animacion, Todos, Diciembre, 89, TwentiethCenturyFox, EstadosUnidos, Comic
+Otros, +18, Enero, 168, AurumProducciones, EstadosUnidos, Original
+Otros, +7, Agosto, 104, Otra, EstadosUnidos, Libro
+Otros, +12, Junio, 120, Otra, España, Original
+Otros, +12, Junio, 86, Otra, España, Original
+Drama, +7, Diciembre, 123, SonyPicturesReleasing, EstadosUnidos, HechosReales
+Drama, +7, Enero, 114, Otra, EstadosUnidos, Libro
+Comedia, +16, Marzo, 104, WarnerBrosEnterteinment, EstadosUnidos, Original
+Comedia, +12, Agosto, 99, WarnerBrosEnterteinment, EstadosUnidos, Original
+Aventura, +7, Octubre, 111, WarnerBrosEnterteinment, EstadosUnidos, Libro
+Sci-fi, +12, Febrero, 128, WarnerBrosEnterteinment, EstadosUnidos, Original
+Accion, +12, Agosto, 116, WarnerBrosEnterteinment, EstadosUnidos, Original
+Drama, +12, Octubre, 103, Otra, España, Original
+Aventura, Todos, Marzo, 105, WaltDisneyCompany, EstadosUnidos, Libro
+Aventura, +7, Mayo, 129, WaltDisneyCompany, EstadosUnidos, Original
+Aventura, +12, Septiembre, 121, UniversalPicturesInternational, EstadosUnidos, HechosReales
+Thriller, +12, Julio, 100, HispanoFoxfilm, EstadosUnidos, HechosReales
