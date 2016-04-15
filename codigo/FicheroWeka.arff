@@ -31,7 +31,7 @@ Comedia, +7, Julio, 106, SonyPicturesReleasing, EstadosUnidos, Original
 Comedia, +16, Julio, 115, UniversalPicturesInternational, EstadosUnidos, Original
 Thriller, +16, Julio, 83, UniversalPicturesInternational, EstadosUnidos, Original,
 Terror, +16, Julio, 80, WarnerBrosEnterteinment, EstadosUnidos, Original
-Drama, +12, Diciembre, 121, Otra, EstadosUnidos, Libro
+Drama, +12, Diciembre, 121, Otra, EstadosUnidos, HechosReales
 Thriller, +16, Agosto, 108, SonyPicturesReleasing, EstadosUnidos, Original
 Drama, +16, Septiembre, 163, Otra, España, Libro
 Sci-fi, +7, Diciembre, 136, WaltDisneyCompany, EstadosUnidos, Original
@@ -68,3 +68,15 @@ Aventura, Todos, Marzo, 105, WaltDisneyCompany, EstadosUnidos, Libro
 Aventura, +7, Mayo, 129, WaltDisneyCompany, EstadosUnidos, Original
 Aventura, +12, Septiembre, 121, UniversalPicturesInternational, EstadosUnidos, HechosReales
 Thriller, +12, Julio, 100, HispanoFoxfilm, EstadosUnidos, HechosReales
+Terror, +18, Noviembre, 97, AurumProducciones, EstadosUnidos, Original
+Terror, +16, Octubre, 106, AurumProducciones, EstadosUnidos, Original
+Terror, +18, Septiembre, 82, Otra, España, Original
+Terror, +16, Mayo, 100, Otra, EstadosUnidos, Original
+Terror, +16, Diciembre, 82, Otra, España, Original
+Accion, +12, Agosto, 131, Paramount, EstadosUnidos, Original
+Accion, +16, Octubre, 97, HispanoFoxfilm, EstadosUnidos, Original
+Animacion, Todos, Junio, 76, WaltDisneyCompany, EstadosUnidos, Original
+Animacion, Todos, Octubre, 89, SonyPicturesReleasing, EstadosUnidos, Original
+Animacion, Todos, Febrero, 108, WaltDisneyCompany, EstadosUnidos, Original
+Animacion, Todos, Enero, 93, HispanoFoxfilm, EstadosUnidos, Original
+Thriller, +12, Diciembre, 150, HispanoFoxfilm, EstadosUnidos, HechosReales
