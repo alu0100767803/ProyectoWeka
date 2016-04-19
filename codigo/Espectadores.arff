@@ -7,6 +7,7 @@
 @attribute productora { WaltDisneyCompany, TwentiethCenturyFox, UniversalPicturesInternational, WarnerBrosEntertainment, SonyPicturesReleasing, AurumProducciones, Paramount, HispanoFoxfilm, AContracorrienteFilms, CastelaoPictures, DeaPlaneta, Tripictures, Otra }
 @attribute pais { España, EstadosUnidos }
 @attribute basadaEn { Libro, Comic, HechosReales, Original }
+@attribute espectadores { MuyPocos, Pocos, Bastantes, Muchos }
 
 @data
 Comedia, Todos, Febrero, 92, Paramount, EstadosUnidos, Original
