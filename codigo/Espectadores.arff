@@ -1,6 +1,6 @@
 @relation Espectadores
 
-@attribute genero { Accion, Aventura, Animacion, Comedia,  Drama, Terror, Musical, Sci-fi, Thriller, Otros }
+@attribute genero { Accion, Aventura, Animacion, Comedia,  Drama, Terror, Sci-fi, Thriller, Otros }
 @attribute edad { Todos, >7, >12, >16, >18 }
 @attribute mesEstreno { Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre }
 @attribute duracion numeric
