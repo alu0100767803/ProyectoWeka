@@ -4,8 +4,7 @@
 
 # Proyecto final de la asignatura Tratamiento Inteligente de Datos.
 
-Este proyecto es la tarea final de la asignatura Tratamiento Inteligente de Datos
-correspondiente al itinerario de Computación del grado en Ingeniería Informática de la ESIT(Escula superior de Ingeniería y Tecnología) - Universidad de La Laguna.
+Este proyecto es la tarea final de la asignatura Tratamiento Inteligente de Datos correspondiente al itinerario de Computación del grado en Ingeniería Informática de la ESIT(Escula superior de Ingeniería y Tecnología) - Universidad de La Laguna.
 ---
 
 ## objetivo
