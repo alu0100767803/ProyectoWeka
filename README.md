@@ -18,6 +18,7 @@ relativa a cada película estrenada en el año 2015 en España.
 ## Autores y contacto
 
 Jorge Alonso Hernández (Correo) : alu0100767803@ull.edu.es
+
 Erik Andreas Barreto de Vera (Correo) : alu0100774054@ull.edu.es
 
 ---
